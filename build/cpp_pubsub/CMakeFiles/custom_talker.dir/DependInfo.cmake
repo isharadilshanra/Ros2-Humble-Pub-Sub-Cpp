@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/ishara/cpp_pubsub/Ros2-Humble-Pub-Sub-Cpp/cpp_pubsub/src/my_subscriber.cpp" "CMakeFiles/custom_talker.dir/src/my_subscriber.cpp.o" "gcc" "CMakeFiles/custom_talker.dir/src/my_subscriber.cpp.o.d"
-  "/home/ishara/cpp_pubsub/Ros2-Humble-Pub-Sub-Cpp/cpp_pubsub/src/sub_main.cpp" "CMakeFiles/custom_talker.dir/src/sub_main.cpp.o" "gcc" "CMakeFiles/custom_talker.dir/src/sub_main.cpp.o.d"
+  "/home/ishara/cpp_pubsub/Ros2-Humble-Pub-Sub-Cpp/cpp_pubsub/src/my_publisher.cpp" "CMakeFiles/custom_talker.dir/src/my_publisher.cpp.o" "gcc" "CMakeFiles/custom_talker.dir/src/my_publisher.cpp.o.d"
+  "/home/ishara/cpp_pubsub/Ros2-Humble-Pub-Sub-Cpp/cpp_pubsub/src/pub_main.cpp" "CMakeFiles/custom_talker.dir/src/pub_main.cpp.o" "gcc" "CMakeFiles/custom_talker.dir/src/pub_main.cpp.o.d"
   )
 
 # Targets to which this target links.

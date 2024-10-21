@@ -69,44 +69,44 @@ include CMakeFiles/custom_talker.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/custom_talker.dir/flags.make
 
-CMakeFiles/custom_talker.dir/src/my_subscriber.cpp.o: CMakeFiles/custom_talker.dir/flags.make
-CMakeFiles/custom_talker.dir/src/my_subscriber.cpp.o: /home/ishara/cpp_pubsub/Ros2-Humble-Pub-Sub-Cpp/cpp_pubsub/src/my_subscriber.cpp
-CMakeFiles/custom_talker.dir/src/my_subscriber.cpp.o: CMakeFiles/custom_talker.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ishara/cpp_pubsub/build/cpp_pubsub/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/custom_talker.dir/src/my_subscriber.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/custom_talker.dir/src/my_subscriber.cpp.o -MF CMakeFiles/custom_talker.dir/src/my_subscriber.cpp.o.d -o CMakeFiles/custom_talker.dir/src/my_subscriber.cpp.o -c /home/ishara/cpp_pubsub/Ros2-Humble-Pub-Sub-Cpp/cpp_pubsub/src/my_subscriber.cpp
+CMakeFiles/custom_talker.dir/src/my_publisher.cpp.o: CMakeFiles/custom_talker.dir/flags.make
+CMakeFiles/custom_talker.dir/src/my_publisher.cpp.o: /home/ishara/cpp_pubsub/Ros2-Humble-Pub-Sub-Cpp/cpp_pubsub/src/my_publisher.cpp
+CMakeFiles/custom_talker.dir/src/my_publisher.cpp.o: CMakeFiles/custom_talker.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ishara/cpp_pubsub/build/cpp_pubsub/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/custom_talker.dir/src/my_publisher.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/custom_talker.dir/src/my_publisher.cpp.o -MF CMakeFiles/custom_talker.dir/src/my_publisher.cpp.o.d -o CMakeFiles/custom_talker.dir/src/my_publisher.cpp.o -c /home/ishara/cpp_pubsub/Ros2-Humble-Pub-Sub-Cpp/cpp_pubsub/src/my_publisher.cpp
 
-CMakeFiles/custom_talker.dir/src/my_subscriber.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/custom_talker.dir/src/my_subscriber.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ishara/cpp_pubsub/Ros2-Humble-Pub-Sub-Cpp/cpp_pubsub/src/my_subscriber.cpp > CMakeFiles/custom_talker.dir/src/my_subscriber.cpp.i
+CMakeFiles/custom_talker.dir/src/my_publisher.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/custom_talker.dir/src/my_publisher.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ishara/cpp_pubsub/Ros2-Humble-Pub-Sub-Cpp/cpp_pubsub/src/my_publisher.cpp > CMakeFiles/custom_talker.dir/src/my_publisher.cpp.i
 
-CMakeFiles/custom_talker.dir/src/my_subscriber.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/custom_talker.dir/src/my_subscriber.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ishara/cpp_pubsub/Ros2-Humble-Pub-Sub-Cpp/cpp_pubsub/src/my_subscriber.cpp -o CMakeFiles/custom_talker.dir/src/my_subscriber.cpp.s
+CMakeFiles/custom_talker.dir/src/my_publisher.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/custom_talker.dir/src/my_publisher.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ishara/cpp_pubsub/Ros2-Humble-Pub-Sub-Cpp/cpp_pubsub/src/my_publisher.cpp -o CMakeFiles/custom_talker.dir/src/my_publisher.cpp.s
 
-CMakeFiles/custom_talker.dir/src/sub_main.cpp.o: CMakeFiles/custom_talker.dir/flags.make
-CMakeFiles/custom_talker.dir/src/sub_main.cpp.o: /home/ishara/cpp_pubsub/Ros2-Humble-Pub-Sub-Cpp/cpp_pubsub/src/sub_main.cpp
-CMakeFiles/custom_talker.dir/src/sub_main.cpp.o: CMakeFiles/custom_talker.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ishara/cpp_pubsub/build/cpp_pubsub/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/custom_talker.dir/src/sub_main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/custom_talker.dir/src/sub_main.cpp.o -MF CMakeFiles/custom_talker.dir/src/sub_main.cpp.o.d -o CMakeFiles/custom_talker.dir/src/sub_main.cpp.o -c /home/ishara/cpp_pubsub/Ros2-Humble-Pub-Sub-Cpp/cpp_pubsub/src/sub_main.cpp
+CMakeFiles/custom_talker.dir/src/pub_main.cpp.o: CMakeFiles/custom_talker.dir/flags.make
+CMakeFiles/custom_talker.dir/src/pub_main.cpp.o: /home/ishara/cpp_pubsub/Ros2-Humble-Pub-Sub-Cpp/cpp_pubsub/src/pub_main.cpp
+CMakeFiles/custom_talker.dir/src/pub_main.cpp.o: CMakeFiles/custom_talker.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ishara/cpp_pubsub/build/cpp_pubsub/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/custom_talker.dir/src/pub_main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/custom_talker.dir/src/pub_main.cpp.o -MF CMakeFiles/custom_talker.dir/src/pub_main.cpp.o.d -o CMakeFiles/custom_talker.dir/src/pub_main.cpp.o -c /home/ishara/cpp_pubsub/Ros2-Humble-Pub-Sub-Cpp/cpp_pubsub/src/pub_main.cpp
 
-CMakeFiles/custom_talker.dir/src/sub_main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/custom_talker.dir/src/sub_main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ishara/cpp_pubsub/Ros2-Humble-Pub-Sub-Cpp/cpp_pubsub/src/sub_main.cpp > CMakeFiles/custom_talker.dir/src/sub_main.cpp.i
+CMakeFiles/custom_talker.dir/src/pub_main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/custom_talker.dir/src/pub_main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ishara/cpp_pubsub/Ros2-Humble-Pub-Sub-Cpp/cpp_pubsub/src/pub_main.cpp > CMakeFiles/custom_talker.dir/src/pub_main.cpp.i
 
-CMakeFiles/custom_talker.dir/src/sub_main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/custom_talker.dir/src/sub_main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ishara/cpp_pubsub/Ros2-Humble-Pub-Sub-Cpp/cpp_pubsub/src/sub_main.cpp -o CMakeFiles/custom_talker.dir/src/sub_main.cpp.s
+CMakeFiles/custom_talker.dir/src/pub_main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/custom_talker.dir/src/pub_main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ishara/cpp_pubsub/Ros2-Humble-Pub-Sub-Cpp/cpp_pubsub/src/pub_main.cpp -o CMakeFiles/custom_talker.dir/src/pub_main.cpp.s
 
 # Object files for target custom_talker
 custom_talker_OBJECTS = \
-"CMakeFiles/custom_talker.dir/src/my_subscriber.cpp.o" \
-"CMakeFiles/custom_talker.dir/src/sub_main.cpp.o"
+"CMakeFiles/custom_talker.dir/src/my_publisher.cpp.o" \
+"CMakeFiles/custom_talker.dir/src/pub_main.cpp.o"
 
 # External object files for target custom_talker
 custom_talker_EXTERNAL_OBJECTS =
 
-custom_talker: CMakeFiles/custom_talker.dir/src/my_subscriber.cpp.o
-custom_talker: CMakeFiles/custom_talker.dir/src/sub_main.cpp.o
+custom_talker: CMakeFiles/custom_talker.dir/src/my_publisher.cpp.o
+custom_talker: CMakeFiles/custom_talker.dir/src/pub_main.cpp.o
 custom_talker: CMakeFiles/custom_talker.dir/build.make
 custom_talker: /opt/ros/humble/lib/librclcpp.so
 custom_talker: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so
