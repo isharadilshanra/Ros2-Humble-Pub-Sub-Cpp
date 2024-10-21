@@ -223,6 +223,32 @@ listener/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/listener.dir/build.make CMakeFiles/listener.dir/build
 .PHONY : listener/fast
 
+#=============================================================================
+# Target rules for targets named custom_talker
+
+# Build rule for target.
+custom_talker: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 custom_talker
+.PHONY : custom_talker
+
+# fast build rule for target.
+custom_talker/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/custom_talker.dir/build.make CMakeFiles/custom_talker.dir/build
+.PHONY : custom_talker/fast
+
+#=============================================================================
+# Target rules for targets named custom_listener
+
+# Build rule for target.
+custom_listener: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 custom_listener
+.PHONY : custom_listener
+
+# fast build rule for target.
+custom_listener/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/custom_listener.dir/build.make CMakeFiles/custom_listener.dir/build
+.PHONY : custom_listener/fast
+
 src/my_publisher.o: src/my_publisher.cpp.o
 .PHONY : src/my_publisher.o
 
@@ -253,6 +279,8 @@ src/my_subscriber.o: src/my_subscriber.cpp.o
 # target to build an object file
 src/my_subscriber.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/listener.dir/build.make CMakeFiles/listener.dir/src/my_subscriber.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/custom_talker.dir/build.make CMakeFiles/custom_talker.dir/src/my_subscriber.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/custom_listener.dir/build.make CMakeFiles/custom_listener.dir/src/my_subscriber.cpp.o
 .PHONY : src/my_subscriber.cpp.o
 
 src/my_subscriber.i: src/my_subscriber.cpp.i
@@ -261,6 +289,8 @@ src/my_subscriber.i: src/my_subscriber.cpp.i
 # target to preprocess a source file
 src/my_subscriber.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/listener.dir/build.make CMakeFiles/listener.dir/src/my_subscriber.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/custom_talker.dir/build.make CMakeFiles/custom_talker.dir/src/my_subscriber.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/custom_listener.dir/build.make CMakeFiles/custom_listener.dir/src/my_subscriber.cpp.i
 .PHONY : src/my_subscriber.cpp.i
 
 src/my_subscriber.s: src/my_subscriber.cpp.s
@@ -269,6 +299,8 @@ src/my_subscriber.s: src/my_subscriber.cpp.s
 # target to generate assembly for a file
 src/my_subscriber.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/listener.dir/build.make CMakeFiles/listener.dir/src/my_subscriber.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/custom_talker.dir/build.make CMakeFiles/custom_talker.dir/src/my_subscriber.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/custom_listener.dir/build.make CMakeFiles/custom_listener.dir/src/my_subscriber.cpp.s
 .PHONY : src/my_subscriber.cpp.s
 
 src/pub_main.o: src/pub_main.cpp.o
@@ -301,6 +333,8 @@ src/sub_main.o: src/sub_main.cpp.o
 # target to build an object file
 src/sub_main.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/listener.dir/build.make CMakeFiles/listener.dir/src/sub_main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/custom_talker.dir/build.make CMakeFiles/custom_talker.dir/src/sub_main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/custom_listener.dir/build.make CMakeFiles/custom_listener.dir/src/sub_main.cpp.o
 .PHONY : src/sub_main.cpp.o
 
 src/sub_main.i: src/sub_main.cpp.i
@@ -309,6 +343,8 @@ src/sub_main.i: src/sub_main.cpp.i
 # target to preprocess a source file
 src/sub_main.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/listener.dir/build.make CMakeFiles/listener.dir/src/sub_main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/custom_talker.dir/build.make CMakeFiles/custom_talker.dir/src/sub_main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/custom_listener.dir/build.make CMakeFiles/custom_listener.dir/src/sub_main.cpp.i
 .PHONY : src/sub_main.cpp.i
 
 src/sub_main.s: src/sub_main.cpp.s
@@ -317,6 +353,8 @@ src/sub_main.s: src/sub_main.cpp.s
 # target to generate assembly for a file
 src/sub_main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/listener.dir/build.make CMakeFiles/listener.dir/src/sub_main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/custom_talker.dir/build.make CMakeFiles/custom_talker.dir/src/sub_main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/custom_listener.dir/build.make CMakeFiles/custom_listener.dir/src/sub_main.cpp.s
 .PHONY : src/sub_main.cpp.s
 
 # Help Target
@@ -334,6 +372,8 @@ help:
 	@echo "... test"
 	@echo "... cpp_pubsub_uninstall"
 	@echo "... uninstall"
+	@echo "... custom_listener"
+	@echo "... custom_talker"
 	@echo "... listener"
 	@echo "... talker"
 	@echo "... src/my_publisher.o"

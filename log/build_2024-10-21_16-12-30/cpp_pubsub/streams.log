@@ -1,0 +1,59 @@
+[0.104s] Invoking command in '/home/ishara/cpp_pubsub/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ishara/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/ishara/cpp_pubsub/build/cpp_pubsub -- -j6 -l6
+[0.225s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.789s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[1.101s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.143s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.173s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.247s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.297s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.524s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.548s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.853s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.198s] -- Configuring done
+[2.257s] -- Generating done
+[2.261s] -- Build files have been written to: /home/ishara/cpp_pubsub/build/cpp_pubsub
+[2.301s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[2.315s] [ 33%] [32mBuilding CXX object CMakeFiles/custom_listener.dir/src/my_subscriber.cpp.o[0m
+[2.316s] [ 33%] [32mBuilding CXX object CMakeFiles/custom_talker.dir/src/my_subscriber.cpp.o[0m
+[2.316s] [ 33%] [32mBuilding CXX object CMakeFiles/custom_listener.dir/src/sub_main.cpp.o[0m
+[2.316s] [ 33%] [32mBuilding CXX object CMakeFiles/custom_talker.dir/src/sub_main.cpp.o[0m
+[2.326s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[2.335s] [ 41%] [32mBuilding CXX object CMakeFiles/talker.dir/src/my_publisher.cpp.o[0m
+[2.351s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/my_subscriber.cpp.o[0m
+[6.277s] [ 58%] [32mBuilding CXX object CMakeFiles/listener.dir/src/sub_main.cpp.o[0m
+[6.295s] [ 66%] [32mBuilding CXX object CMakeFiles/talker.dir/src/pub_main.cpp.o[0m
+[10.173s] [ 75%] [32m[1mLinking CXX executable talker[0m
+[10.483s] [ 75%] Built target talker
+[12.551s] [ 83%] [32m[1mLinking CXX executable custom_listener[0m
+[12.610s] [ 91%] [32m[1mLinking CXX executable custom_talker[0m
+[13.029s] [ 91%] Built target custom_listener
+[13.054s] [100%] [32m[1mLinking CXX executable listener[0m
+[13.055s] [100%] Built target custom_talker
+[13.425s] [100%] Built target listener
+[13.445s] Invoked command in '/home/ishara/cpp_pubsub/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ishara/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/ishara/cpp_pubsub/build/cpp_pubsub -- -j6 -l6
+[13.505s] Invoking command in '/home/ishara/cpp_pubsub/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ishara/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/ishara/cpp_pubsub/build/cpp_pubsub
+[13.516s] -- Install configuration: ""
+[13.546s] -- Installing: /home/ishara/cpp_pubsub/install/cpp_pubsub/lib/cpp_pubsub/talker
+[13.548s] -- Set runtime path of "/home/ishara/cpp_pubsub/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""
+[13.602s] -- Installing: /home/ishara/cpp_pubsub/install/cpp_pubsub/lib/cpp_pubsub/listener
+[13.607s] -- Set runtime path of "/home/ishara/cpp_pubsub/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""
+[13.607s] -- Installing: /home/ishara/cpp_pubsub/install/cpp_pubsub/lib/cpp_pubsub/custom_talker
+[13.612s] -- Set runtime path of "/home/ishara/cpp_pubsub/install/cpp_pubsub/lib/cpp_pubsub/custom_talker" to ""
+[13.613s] -- Installing: /home/ishara/cpp_pubsub/install/cpp_pubsub/lib/cpp_pubsub/custom_listener
+[13.617s] -- Set runtime path of "/home/ishara/cpp_pubsub/install/cpp_pubsub/lib/cpp_pubsub/custom_listener" to ""
+[13.618s] -- Up-to-date: /home/ishara/cpp_pubsub/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[13.618s] -- Installing: /home/ishara/cpp_pubsub/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[13.632s] -- Up-to-date: /home/ishara/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[13.633s] -- Installing: /home/ishara/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[13.634s] -- Up-to-date: /home/ishara/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[13.634s] -- Installing: /home/ishara/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[13.634s] -- Up-to-date: /home/ishara/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[13.634s] -- Up-to-date: /home/ishara/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[13.635s] -- Up-to-date: /home/ishara/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[13.635s] -- Installing: /home/ishara/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[13.635s] -- Installing: /home/ishara/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[13.635s] -- Up-to-date: /home/ishara/cpp_pubsub/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[13.635s] -- Up-to-date: /home/ishara/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[13.635s] -- Up-to-date: /home/ishara/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[13.636s] -- Up-to-date: /home/ishara/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[13.639s] Invoked command in '/home/ishara/cpp_pubsub/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ishara/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/ishara/cpp_pubsub/build/cpp_pubsub
