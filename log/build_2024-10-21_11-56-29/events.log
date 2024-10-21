@@ -1,0 +1,159 @@
+[0.000000] (-) TimerEvent: {}
+[0.000186] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict()}
+[0.000211] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.007294] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.007674] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '/home/ishara/cpp_pubsub/Ros2-Humble-Pub-Sub-Cpp/cpp_pubsub', '-DCMAKE_INSTALL_PREFIX=/home/ishara/cpp_pubsub/install/cpp_pubsub'], 'cwd': '/home/ishara/cpp_pubsub/build/cpp_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ishara'), ('LC_TIME', 'si_LK'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ishara/prelab_ros2_ws/install/zumo_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ishara'), ('OLDPWD', '/home/ishara/cpp_pubsub/Ros2-Humble-Pub-Sub-Cpp'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'si_LK'), ('SYSTEMD_EXEC_PID', '2512'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ishara/ros2_ws/install:/home/ishara/prelab_ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ishara'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ishara'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ishara-HP-ProBook-455-G7:@/tmp/.ICE-unix/1645,unix/ishara-HP-ProBook-455-G7:/tmp/.ICE-unix/1645'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'si_LK'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/01a8f7c5_d58e_4e8b_9b5a_79371123cfb4'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'si_LK'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.QALXV2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.111'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ishara/ros2_ws/install/my_robot_controller:/home/ishara/prelab_ros2_ws/install/zumo_serial:/home/ishara/prelab_ros2_ws/install/zumo_imu_kf:/home/ishara/prelab_ros2_ws/install/zumo_calibration:/home/ishara/prelab_ros2_ws/install/zumo_msgs:/home/ishara/prelab_ros2_ws/install/zumo_launch:/home/ishara/prelab_ros2_ws/install/zumo_description:/home/ishara/prelab_ros2_ws/install/zumo_defs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'si_LK'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'si_LK'), ('LC_IDENTIFICATION', 'si_LK'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ishara/cpp_pubsub/build/cpp_pubsub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ishara/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/home/ishara/prelab_ros2_ws/install/zumo_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'si_LK'), ('LC_PAPER', 'si_LK'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ishara/prelab_ros2_ws/install/zumo_serial:/home/ishara/prelab_ros2_ws/install/zumo_imu_kf:/home/ishara/prelab_ros2_ws/install/zumo_calibration:/home/ishara/prelab_ros2_ws/install/zumo_msgs:/home/ishara/prelab_ros2_ws/install/zumo_launch:/home/ishara/prelab_ros2_ws/install/zumo_description:/home/ishara/prelab_ros2_ws/install/zumo_defs:/home/ishara/ros2_ws/install/my_robot_controller:/opt/ros/humble')]), 'shell': False}
+[0.058696] (cpp_pubsub) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099520] (-) TimerEvent: {}
+[0.118764] (cpp_pubsub) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.133353] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199555] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.199825] (-) TimerEvent: {}
+[0.217713] (cpp_pubsub) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.218305] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.219198] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.226025] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299959] (-) TimerEvent: {}
+[0.311395] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.330349] (cpp_pubsub) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.330936] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.332046] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.337533] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.400098] (-) TimerEvent: {}
+[0.500469] (-) TimerEvent: {}
+[0.504364] (cpp_pubsub) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.601019] (-) TimerEvent: {}
+[0.621475] (cpp_pubsub) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.655406] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.659676] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.666591] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.676801] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.690332] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.701129] (-) TimerEvent: {}
+[0.726747] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.729051] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.801258] (-) TimerEvent: {}
+[0.826922] (cpp_pubsub) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.855564] (cpp_pubsub) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.890423] (cpp_pubsub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.897172] (cpp_pubsub) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.901398] (-) TimerEvent: {}
+[0.962782] (cpp_pubsub) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.963378] (cpp_pubsub) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.001568] (-) TimerEvent: {}
+[1.036493] (cpp_pubsub) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.037354] (cpp_pubsub) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.101738] (-) TimerEvent: {}
+[1.143555] (cpp_pubsub) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.152312] (cpp_pubsub) StdoutLine: {'line': b'-- Generating done\n'}
+[1.153506] (cpp_pubsub) StdoutLine: {'line': b'-- Build files have been written to: /home/ishara/cpp_pubsub/build/cpp_pubsub\n'}
+[1.160743] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[1.161538] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[1.162868] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ishara/cpp_pubsub/build/cpp_pubsub', '--', '-j6', '-l6'], 'cwd': '/home/ishara/cpp_pubsub/build/cpp_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ishara'), ('LC_TIME', 'si_LK'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ishara/prelab_ros2_ws/install/zumo_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ishara'), ('OLDPWD', '/home/ishara/cpp_pubsub/Ros2-Humble-Pub-Sub-Cpp'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'si_LK'), ('SYSTEMD_EXEC_PID', '2512'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ishara/ros2_ws/install:/home/ishara/prelab_ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ishara'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ishara'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ishara-HP-ProBook-455-G7:@/tmp/.ICE-unix/1645,unix/ishara-HP-ProBook-455-G7:/tmp/.ICE-unix/1645'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'si_LK'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/01a8f7c5_d58e_4e8b_9b5a_79371123cfb4'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'si_LK'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.QALXV2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.111'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ishara/ros2_ws/install/my_robot_controller:/home/ishara/prelab_ros2_ws/install/zumo_serial:/home/ishara/prelab_ros2_ws/install/zumo_imu_kf:/home/ishara/prelab_ros2_ws/install/zumo_calibration:/home/ishara/prelab_ros2_ws/install/zumo_msgs:/home/ishara/prelab_ros2_ws/install/zumo_launch:/home/ishara/prelab_ros2_ws/install/zumo_description:/home/ishara/prelab_ros2_ws/install/zumo_defs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'si_LK'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'si_LK'), ('LC_IDENTIFICATION', 'si_LK'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ishara/cpp_pubsub/build/cpp_pubsub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ishara/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/home/ishara/prelab_ros2_ws/install/zumo_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'si_LK'), ('LC_PAPER', 'si_LK'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ishara/prelab_ros2_ws/install/zumo_serial:/home/ishara/prelab_ros2_ws/install/zumo_imu_kf:/home/ishara/prelab_ros2_ws/install/zumo_calibration:/home/ishara/prelab_ros2_ws/install/zumo_msgs:/home/ishara/prelab_ros2_ws/install/zumo_launch:/home/ishara/prelab_ros2_ws/install/zumo_description:/home/ishara/prelab_ros2_ws/install/zumo_defs:/home/ishara/ros2_ws/install/my_robot_controller:/opt/ros/humble')]), 'shell': False}
+[1.201900] (-) TimerEvent: {}
+[1.207674] (cpp_pubsub) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/my_subscriber.cpp.o\x1b[0m\n'}
+[1.208024] (cpp_pubsub) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/sub_main.cpp.o\x1b[0m\n'}
+[1.208168] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/pub_main.cpp.o\x1b[0m\n'}
+[1.210438] (cpp_pubsub) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/my_publisher.cpp.o\x1b[0m\n'}
+[1.302369] (-) TimerEvent: {}
+[1.403059] (-) TimerEvent: {}
+[1.503698] (-) TimerEvent: {}
+[1.604204] (-) TimerEvent: {}
+[1.704898] (-) TimerEvent: {}
+[1.805806] (-) TimerEvent: {}
+[1.906544] (-) TimerEvent: {}
+[2.007230] (-) TimerEvent: {}
+[2.107997] (-) TimerEvent: {}
+[2.208708] (-) TimerEvent: {}
+[2.309400] (-) TimerEvent: {}
+[2.410098] (-) TimerEvent: {}
+[2.510792] (-) TimerEvent: {}
+[2.611466] (-) TimerEvent: {}
+[2.711904] (-) TimerEvent: {}
+[2.812496] (-) TimerEvent: {}
+[2.913158] (-) TimerEvent: {}
+[3.013895] (-) TimerEvent: {}
+[3.114583] (-) TimerEvent: {}
+[3.215320] (-) TimerEvent: {}
+[3.315964] (-) TimerEvent: {}
+[3.416696] (-) TimerEvent: {}
+[3.517378] (-) TimerEvent: {}
+[3.617818] (-) TimerEvent: {}
+[3.718238] (-) TimerEvent: {}
+[3.818988] (-) TimerEvent: {}
+[3.919420] (-) TimerEvent: {}
+[4.020249] (-) TimerEvent: {}
+[4.120687] (-) TimerEvent: {}
+[4.221296] (-) TimerEvent: {}
+[4.322072] (-) TimerEvent: {}
+[4.422649] (-) TimerEvent: {}
+[4.523414] (-) TimerEvent: {}
+[4.623770] (-) TimerEvent: {}
+[4.724386] (-) TimerEvent: {}
+[4.825200] (-) TimerEvent: {}
+[4.925625] (-) TimerEvent: {}
+[4.986785] (cpp_pubsub) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[5.026115] (-) TimerEvent: {}
+[5.126889] (-) TimerEvent: {}
+[5.170167] (cpp_pubsub) StdoutLine: {'line': b'[ 83%] Built target talker\n'}
+[5.227207] (-) TimerEvent: {}
+[5.327629] (-) TimerEvent: {}
+[5.427956] (-) TimerEvent: {}
+[5.528376] (-) TimerEvent: {}
+[5.629065] (-) TimerEvent: {}
+[5.729780] (-) TimerEvent: {}
+[5.830385] (-) TimerEvent: {}
+[5.930802] (-) TimerEvent: {}
+[6.031354] (-) TimerEvent: {}
+[6.131938] (-) TimerEvent: {}
+[6.232620] (-) TimerEvent: {}
+[6.333200] (-) TimerEvent: {}
+[6.433886] (-) TimerEvent: {}
+[6.534318] (-) TimerEvent: {}
+[6.634928] (-) TimerEvent: {}
+[6.735328] (-) TimerEvent: {}
+[6.835999] (-) TimerEvent: {}
+[6.936522] (-) TimerEvent: {}
+[7.036997] (-) TimerEvent: {}
+[7.137561] (-) TimerEvent: {}
+[7.238237] (-) TimerEvent: {}
+[7.338767] (-) TimerEvent: {}
+[7.439243] (-) TimerEvent: {}
+[7.539751] (-) TimerEvent: {}
+[7.640356] (-) TimerEvent: {}
+[7.740736] (-) TimerEvent: {}
+[7.841359] (-) TimerEvent: {}
+[7.940656] (cpp_pubsub) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[7.941450] (-) TimerEvent: {}
+[8.041808] (-) TimerEvent: {}
+[8.142282] (-) TimerEvent: {}
+[8.242725] (-) TimerEvent: {}
+[8.321773] (cpp_pubsub) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[8.331301] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[8.342854] (-) TimerEvent: {}
+[8.364129] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'install'}
+[8.372592] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ishara/cpp_pubsub/build/cpp_pubsub'], 'cwd': '/home/ishara/cpp_pubsub/build/cpp_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ishara'), ('LC_TIME', 'si_LK'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ishara/prelab_ros2_ws/install/zumo_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ishara'), ('OLDPWD', '/home/ishara/cpp_pubsub/Ros2-Humble-Pub-Sub-Cpp'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'si_LK'), ('SYSTEMD_EXEC_PID', '2512'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ishara/ros2_ws/install:/home/ishara/prelab_ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ishara'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ishara'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ishara-HP-ProBook-455-G7:@/tmp/.ICE-unix/1645,unix/ishara-HP-ProBook-455-G7:/tmp/.ICE-unix/1645'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'si_LK'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/01a8f7c5_d58e_4e8b_9b5a_79371123cfb4'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'si_LK'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.QALXV2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.111'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ishara/ros2_ws/install/my_robot_controller:/home/ishara/prelab_ros2_ws/install/zumo_serial:/home/ishara/prelab_ros2_ws/install/zumo_imu_kf:/home/ishara/prelab_ros2_ws/install/zumo_calibration:/home/ishara/prelab_ros2_ws/install/zumo_msgs:/home/ishara/prelab_ros2_ws/install/zumo_launch:/home/ishara/prelab_ros2_ws/install/zumo_description:/home/ishara/prelab_ros2_ws/install/zumo_defs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'si_LK'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'si_LK'), ('LC_IDENTIFICATION', 'si_LK'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ishara/cpp_pubsub/build/cpp_pubsub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ishara/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/home/ishara/prelab_ros2_ws/install/zumo_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'si_LK'), ('LC_PAPER', 'si_LK'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ishara/prelab_ros2_ws/install/zumo_serial:/home/ishara/prelab_ros2_ws/install/zumo_imu_kf:/home/ishara/prelab_ros2_ws/install/zumo_calibration:/home/ishara/prelab_ros2_ws/install/zumo_msgs:/home/ishara/prelab_ros2_ws/install/zumo_launch:/home/ishara/prelab_ros2_ws/install/zumo_description:/home/ishara/prelab_ros2_ws/install/zumo_defs:/home/ishara/ros2_ws/install/my_robot_controller:/opt/ros/humble')]), 'shell': False}
+[8.384978] (cpp_pubsub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.385220] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/ishara/cpp_pubsub/install/cpp_pubsub/lib/cpp_pubsub/talker\n'}
+[8.385837] (cpp_pubsub) StdoutLine: {'line': b'-- Set runtime path of "/home/ishara/cpp_pubsub/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""\n'}
+[8.386008] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/ishara/cpp_pubsub/install/cpp_pubsub/lib/cpp_pubsub/listener\n'}
+[8.388293] (cpp_pubsub) StdoutLine: {'line': b'-- Set runtime path of "/home/ishara/cpp_pubsub/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""\n'}
+[8.388594] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/ishara/cpp_pubsub/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub\n'}
+[8.388857] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/ishara/cpp_pubsub/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub\n'}
+[8.389038] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/ishara/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh\n'}
+[8.389141] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/ishara/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv\n'}
+[8.389230] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/ishara/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh\n'}
+[8.389318] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/ishara/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv\n'}
+[8.389449] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/ishara/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash\n'}
+[8.389618] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/ishara/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh\n'}
+[8.389711] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/ishara/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh\n'}
+[8.389797] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/ishara/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv\n'}
+[8.389893] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/ishara/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/package.dsv\n'}
+[8.389983] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/ishara/cpp_pubsub/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub\n'}
+[8.390069] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/ishara/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake\n'}
+[8.390155] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/ishara/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake\n'}
+[8.390256] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/ishara/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/package.xml\n'}
+[8.391720] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[8.443045] (-) TimerEvent: {}
+[8.444549] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 0}
+[8.445312] (-) EventReactorShutdown: {}
